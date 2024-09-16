@@ -14,7 +14,7 @@ function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          Heladería Mayorista
+          Grido Mayorista
         </div>
 
         {/* Links - Hidden on small screens */}
