@@ -66,11 +66,11 @@ function Home() {
       </section>
 
       {/* Sección de Productos */}
-      <section className="py-12 bg-white text-[#0022a0]">
+      {/* <section className="py-12 bg-white text-[#0022a0]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold">Nuestros Productos</h2>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Ejemplo de producto */}
+    
             <div className="border border-[#9face3] p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold">Helado de Vainilla</h3>
               <p className="mt-4">
@@ -91,9 +91,8 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Sección de Contacto */}
       <section className="py-12 bg-[#fb004d] text-white">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="w-2/5">
