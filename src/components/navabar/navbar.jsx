@@ -1,5 +1,5 @@
 // src/components/Navbar.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/" className="hover:text-[#9face3]">Inicio</Link>
           <Link to="/#business" className="hover:text-[#9face3]">Nuestro Negocio</Link>
           <Link to="/products" className="hover:text-[#9face3]">Productos</Link>
-          <Link to="/#contact" className="hover:text-[#9face3]">Contacto</Link>
+          <Link to="/#contacto" className="hover:text-[#9face3]">Contacto</Link>
         </div>
 
         {/* Hamburger Icon - Visible on small screens */}

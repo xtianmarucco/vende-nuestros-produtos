@@ -5,7 +5,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 function ContactInfo() {
   return (
     <div className="contact-info">
-      <h2 className='text-2xl font-bold mb-2'>Contáctanos a</h2>
+      {/* <h2 className='text-2xl font-bold mb-2'>Contáctanos a</h2> */}
       <ul>
         <li>
           <FontAwesomeIcon icon={faMapMarkerAlt} className='mr-1' />

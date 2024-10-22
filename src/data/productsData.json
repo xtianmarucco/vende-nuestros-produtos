@@ -355,5 +355,89 @@
       "description": "Postre cremoso sabor frutilla y americana con pulpa de frutillas.",
       "image": "https://argentina.gridohelado.com/wp-content/uploads/2023/10/POSTRE-CREMOSO-FRUTILLA-Y-AMERICANA-1-e16978440428361.png",
       "category": "Postres"
+    },
+    {
+      "id": "Yogur mango y maracuyá",
+      "name": "Yogur mango y maracuyá",
+      "description": "Crema helada con yogur y salsa sabor mango y maracuyá. Libre de gluten, sin TACC",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2016/06/yogur-mango.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Yogur frutilla",
+      "name": "Yogur frutilla",
+      "description": "Crema helada con yogur y salsa de frutilla. Libre de gluten, sin TACC",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2016/06/yogur-mango.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Yogur frutilla",
+      "name": "Yogur frutilla",
+      "description": "Crema helada con yogur y salsa de frutilla. Libre de gluten, sin TACC.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2016/06/yogur-mango.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Yogur mascarpone con frutos del bosque",
+      "name": "Yogur mascarpone con frutos del bosque",
+      "description": "Crema helada con yogur y salsa sabor frutos del bosque. Libre degluten, sin TACC",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2016/06/yogur-mascarpone.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Crema con durazno",
+      "name": "Crema con durazno",
+      "description": "Nuevo Helado Sin azúcares agregados.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2022/03/21-1107-GRIDO_PACKS_YOGOURT_DURAZNO.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Frutilla a la crema",
+      "name": "Frutilla a la crema",
+      "description": "Nuevo Helado de frutilla sin azúcares agregados ¡Date el Gusto!",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2022/03/21-1107-GRIDO_PACKS_YOGOURT_FRUTILLA.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Chocolate",
+      "name": "Chocolate",
+      "description": "Nuevo Helado de chocolate sin azúcares agregados.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2022/03/21-1107-GRIDO_PACKS_YOGOURT_FRUTILLA.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Chocolate",
+      "name": "Chocolate",
+      "description": "Nuevo Helado de chocolate sin azúcares agregados.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2022/03/21-1107-GRIDO_PACKS_YOGOURT_FRUTILLA.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Chocolate",
+      "name": "Chocolate",
+      "description": "Nuevo Helado de chocolate sin azúcares agregados.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2022/03/21-1107-GRIDO_PACKS_YOGOURT_FRUTILLA.jpg",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Vainilla vegana",
+      "name": "Vainilla vegana",
+      "description": "Postre vegano de vainilla con dulce de coco. Sin tacc y naturalmente sin lactosa.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2023/10/VEG-PACK-VAINILLA.png",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Mani",
+      "name": "Mani",
+      "description": "Postre vegano de maní con salsa de chocolate. Sin tacc y naturalmente sin lactosa.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2023/10/VEG-PACK-MANI.png",
+      "category": "Sin TACC"
+    },
+    {
+      "id": "Chocolate Vegano",
+      "name": "Chocolate Vegano",
+      "description": "Postre vegano de chocolate con salsa de chocolate. Sin tacc y naturalmente sin lactosa.",
+      "image": "https://argentina.gridohelado.com/wp-content/uploads/2023/10/VEG-PACK-CHOCOLATE.png",
+      "category": "Sin TACC"
     }
   ]
