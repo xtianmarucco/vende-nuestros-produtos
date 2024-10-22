@@ -19,7 +19,6 @@ function Navbar() {
 
         {/* Links - Hidden on small screens */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="hover:text-[#9face3]">Inicio</Link>
           <Link to="/#business" className="hover:text-[#9face3]">Nuestro Negocio</Link>
           <Link to="/products" className="hover:text-[#9face3]">Productos</Link>
           <Link to="/#contacto" className="hover:text-[#9face3]">Contacto</Link>
