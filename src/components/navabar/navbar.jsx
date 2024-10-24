@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,22 +13,25 @@ function Navbar() {
     <nav className="bg-[#0022a0] text-white w-full">
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
         {/* Logo */}
-        <div className="text-2xl font-bold">
+        <div to="/" className="text-2xl font-bold">
           Grido Mayorista
         </div>
 
         {/* Links - Hidden on small screens */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/#business" className="hover:text-[#9face3]">Nuestro Negocio</Link>
-          <Link to="/products" className="hover:text-[#9face3]">Productos</Link>
-          <Link to="/#contacto" className="hover:text-[#9face3]">Contacto</Link>
+          <Link to="/#business" className="text-white hover:text-[#9face3]">
+            Nuestro Negocio
+          </Link>
+          <Link to="/products" className="text-white hover:text-[#9face3]">
+            Productos
+          </Link>
+          <Link to="/#contacto" className="text-white hover:text-[#9face3]">
+            Contacto
+          </Link>
         </div>
 
         {/* Hamburger Icon - Visible on small screens */}
-        <button
-          className="md:hidden flex items-center"
-          onClick={toggleMenu}
-        >
+        <button className="md:hidden flex items-center" onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
             fill="none"
@@ -40,7 +43,7 @@ function Navbar() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
+              d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
             />
           </svg>
         </button>
@@ -49,10 +52,24 @@ function Navbar() {
       {/* Dropdown Menu - Visible on small screens */}
       {isOpen && (
         <div className="md:hidden bg-[#0022a0]">
-          <Link to="/" className="block py-2 px-4 hover:bg-[#9face3]">Inicio</Link>
-          <Link to="/#business" className="block py-2 px-4 hover:bg-[#9face3]">Nuestro Negocio</Link>
-          <Link to="/products" className="block py-2 px-4 hover:bg-[#9face3]">Productos</Link>
-          <Link to="/#contact" className="block py-2 px-4 hover:bg-[#9face3]">Contacto</Link>
+          <Link
+            to="/#business"
+            className="text-white block py-2 px-4 hover:bg-[#9face3]"
+          >
+            Nuestro Negocio
+          </Link>
+          <Link
+            to="/products"
+            className=" text-white block py-2 px-4 hover:bg-[#9face3]"
+          >
+            Productos
+          </Link>
+          <Link
+            to="/#contact"
+            className=" text-white block py-2 px-4 hover:bg-[#9face3]"
+          >
+            Contacto
+          </Link>
         </div>
       )}
     </nav>

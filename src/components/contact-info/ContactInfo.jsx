@@ -9,19 +9,19 @@ function ContactInfo() {
       <ul>
         <li>
           <FontAwesomeIcon icon={faMapMarkerAlt} className='mr-1' />
-          Suc Castelli: <a className='decoration-none text-white' href="https://goo.gl/maps/xyz" target="_blank" rel="noopener noreferrer">Calle Falsa 123, Ciudad</a>
+          Suc Castelli: <a className='decoration-none text-white hover:text-white' href="https://goo.gl/maps/xyz" target="_blank" rel="noopener noreferrer">Av Castelli 4041, Barranqueras.</a>
 
         </li>
-        <li>
+        {/* <li>
           <FontAwesomeIcon icon={faMapMarkerAlt} className='mr-1'/> 
           Suc Diagonal: <a className='decoration-none text-white' href="https://goo.gl/maps/xyz" target="_blank" rel="noopener noreferrer">Calle Falsa 123, Ciudad</a>
 
+        </li> */}
+        <li>
+          <FontAwesomeIcon icon={faEnvelope} className='mr-1' /> Correo: <a className='decoration-none text-white hover:text-white' href="mailto:christian.marucco@gmail.com" >contacto@mayorista.com</a>
         </li>
         <li>
-          <FontAwesomeIcon icon={faEnvelope} className='mr-1' /> Correo: <a className='decoration-none text-white' href="mailto:someone@example.com" target="_blank" rel="noopener noreferrer">Calle Falsa 123, Ciudad</a>
-        </li>
-        <li>
-        <FontAwesomeIcon icon={faWhatsapp} className='mr-1'/>Teléfono: <a className='decoration-none text-white' href="https://wa.me/5493624119732">3624119732</a>
+        <FontAwesomeIcon icon={faWhatsapp} className='mr-1'/>Teléfono: <a className='decoration-none text-white hover:text-white' href="https://wa.me/5493624119732">3624119732</a>
         </li>
       </ul>
     </div>
